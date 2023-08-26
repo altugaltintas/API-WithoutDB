@@ -1,0 +1,25 @@
+﻿
+
+
+Katmanlı bir proje oluşturacağız
+
+
+*Entitylerin/sınıflarımızın bulunacağı bi MODEL katmanı,
+*Modeller ile veritabanı haberleştireceğimiz, / repolarımızı kullanarak veriye erişim sağlayacağımız bir DATA ACCSES katmanı,
+*Servis metodlarımızı oluşturacağız / repolara belli bir kutal ve kontroller dahilinde iş yağtıracağımız BUSSİNESS katmanı,
+*Api servislerini yazacağımız bir APİ Katmanı,
+
+
+
+Model katmanımız için => class liblary (Sınıf kütüphanesi )  Olarak proje açtık
+
+ Data ACCES katmanımız => Class Liblary olarak proje açıp
+                          Context ve Pepositories  klasörlerinde yapılarımızı oluşuturacağız.
+                          Not: Burada ilgili sınıfları aynı proje altında görmeyeceğiz için Entitiylerin olduğu katmana tanıtmamız gerekli. Referans vermeniz gerekli
+
+*** Referans vermek için => ilgili ikatmana sağ tık add- project reference ve çıkan projeden seçim yapılabilir yada
+                            Entitynin adını algılamadığı yerde CTRL+. kombinasyounuyla tavsiyedeki ADD REFERENCE kabul edilir
+                            Yanlış Refence eklendiğinde, eklenen proje altındaki Dependencies => projeye  ulaşarak  seçilen proje silinir
+
+
+Context oluştururken Mic.EfCore.SQLServer pakedi , göç için Mic.EfCore.Tools Pakedi istenir
